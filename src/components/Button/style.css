@@ -1,0 +1,34 @@
+button {
+  height: 45px;
+  border-radius: 32.5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.primary {
+  color: white;
+  background-color: var(--sky-blue);
+  border: none;
+}
+
+.secondary {
+  color: var(--sky-blue);
+  border: 1px solid var(--sky-blue);
+  background-color: white;
+}
+
+.btn-xs {
+  width: 107px;
+}
+
+.btn-s {
+  width: 157px;
+}
+
+.btn-md {
+  width: 185px;
+}
+
+.btn-lg {
+  width: 243px;
+}

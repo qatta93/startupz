@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import HamburgerIcon from './HamburgerIcon';
 import CloseIcon from './CloseIcon';
 import { Link, NavLink } from 'react-router-dom';
+import Button from '../Button/index'
 import './style.css';
 
 const Header = () => {
@@ -32,7 +33,15 @@ const Header = () => {
           <ul className={`header__links-container ${isNavExpanded ? 'header__links-container--visible' : ''}`}>
             <NavLink className="header__link" to="/" onClick={handleLink}>Startups</NavLink>
             <NavLink className="header__link" to="/" onClick={handleLink}>Contact</NavLink>
-            <NavLink className="header__link" to="/" onClick={handleLink}>Work with us!</NavLink>
+            <NavLink className="header__link" to="/" onClick={handleLink}>
+              <Button
+                variant={'secondary'}
+                className={'btn-md'}
+                name={'see our works'}
+                >
+                Work with us!
+              </Button>
+            </NavLink>
           </ul>
         </div>
       </nav>
