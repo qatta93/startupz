@@ -10,6 +10,9 @@
   z-index: 5;
   position: relative;
   width: 100vw;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header--fixed {
@@ -18,7 +21,7 @@
 
 .header__nav {
   display: flex;
-  padding: 1.9rem 7.5rem;
+  margin: auto 7.5rem;
   justify-content: space-between;
   gap: 40px;
   align-items: center;
