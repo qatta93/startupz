@@ -3,6 +3,7 @@ button {
   border-radius: 32.5px;
   font-size: 18px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .primary {
@@ -11,10 +12,22 @@ button {
   border: none;
 }
 
+.primary:hover {
+  color: var(--sky-blue);
+  border: 1px solid var(--sky-blue);
+  background-color: white;
+}
+
 .secondary {
   color: var(--sky-blue);
   border: 1px solid var(--sky-blue);
   background-color: white;
+}
+
+.secondary:hover {
+  color: white;
+  background-color: var(--sky-blue);
+  border: none;
 }
 
 .btn-xs {
