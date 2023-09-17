@@ -17,6 +17,17 @@
 }
 
 :root {
+  --yellow: #FFC351;
+  --orange: #FB8958;
+  --light-blue: #8BB5C9;
+  --sky-blue: #46B8C8;
+  --dark-blue: #00A0B6;
+  --olive: #A9BC87;
+  --purple: #8B60D3;
+  --shadow: #BBA98E;
+  --light-grey: #FBFAFA;
+  --grey: #F3F3F3;
+  --dark-grey: #939393;
   --metal: #3D4F5C;
 }
 
