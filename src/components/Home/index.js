@@ -3,7 +3,6 @@ import './style.css';
 
 const Home = () => (
   <main className="home">
-    
   </main>
 );
 

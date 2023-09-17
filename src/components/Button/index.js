@@ -18,7 +18,7 @@ const styles = {
   size: type => {
     if (type === 'lg') return 'btn-lg';
     if (type === 'md') return 'btn-md';
-    if (type === 'sm') return 'btn-sm';
+    if (type === 's') return 'btn-s';
     if (type === 'xs') return 'btn-xs';
   },
 };
@@ -41,23 +41,12 @@ const Button = (
         type={props.type ? props.type : 'button'}
         onClick={props.onClick}
         className={cx(
-          'rounded-lg',
-          'z-50',
           styles.variant(variant),
           styles.size(size),
           className
         )}
       >
-        <>
-        {startIcon && (
-            <span
-              className='mr-4 relative top-[calc(50%-22.75px)]'
-            >
-              {startIcon}
-            </span>
-          )}
-          {children}
-        </>
+        {children}
       </button>
     );
   }

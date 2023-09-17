@@ -36,8 +36,8 @@ const Header = () => {
             <NavLink className="header__link" to="/" onClick={handleLink}>
               <Button
                 variant={'secondary'}
-                className={'btn-md'}
-                name={'see our works'}
+                size={'md'}
+                name={'Work with us'}
                 >
                 Work with us!
               </Button>
