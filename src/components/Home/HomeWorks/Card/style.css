@@ -1,0 +1,92 @@
+.home__card {
+  position: relative;
+  height: 550px;
+  width: 590px;
+  display: flex;
+  flex-direction: column;
+  padding: 45px 90px 50px 90px;
+  box-shadow: 0px 8px 35px var(--shadow);
+  border-radius: 30px;
+}
+
+.home__card--title {
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: -1%;
+}
+
+.home__card--tolq {
+  color: var(--olive)
+}
+
+.home__card--feedback {
+  color: var(--light-blue)
+}
+
+.home__card--codekeeper {
+  color: var(--dark-blue)
+}
+
+.home__card--legalsite {
+  color: var(--purple)
+}
+
+.home__card--desc {
+  margin: 25px 0;
+  font-weight: light;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -1%;
+}
+
+.home__card img {
+  position: absolute;
+  top: 190px;
+  height: 245px;
+  width: auto;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.home__card a {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .home__card {
+    position: relative;
+    height: 550px;
+    width: 590px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    box-shadow: 0px 8px 35px var(--shadow);
+    border-radius: 30px;
+  }
+  .home__card img {
+    position: absolute;
+    top: 220px;
+    height: 200px;
+    width: auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home__card {
+    height: 520px;
+    padding: 30px;
+  }
+  .home__card img {
+    position: absolute;
+    top: 230px;
+    height: 180px;
+    width: auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}

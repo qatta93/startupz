@@ -1,0 +1,22 @@
+.home__works {
+  padding: 140px 0;
+  text-align: center;
+}
+
+.home__works h2 {
+  margin-bottom: 55px;
+}
+
+.home__works div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+  .home__works {
+    padding: 80px 0;
+    text-align: center;
+  }
+}

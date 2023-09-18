@@ -24,7 +24,7 @@
   --dark-blue: #00A0B6;
   --olive: #A9BC87;
   --purple: #8B60D3;
-  --shadow: #BBA98E;
+  --shadow: rgba(187, 169, 142, 0.15);
   --light-grey: #FBFAFA;
   --grey: #F3F3F3;
   --dark-grey: #939393;
@@ -69,7 +69,7 @@ h3 {
   padding-left: 120px!important;
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 2050px) {
   .global-padding {
     padding-left: 20vw!important;
     padding-right: 20vw!important;
