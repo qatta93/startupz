@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 
 const HomeAbout = () => (
-  <section className='home__about'>
+  <section className='home__about global-padding'>
     <div className='home__about--header'>
       <article>
         <h2>Who we are</h2>

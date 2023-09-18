@@ -4,7 +4,7 @@ import Button from '../../Button/index'
 import './style.css';
 
 const HomeMain = () => (
-  <section className='home__main'>
+  <section className='home__main global-padding'>
     <div className='home__main--tittle'>
       <h1>We Create Startups.</h1>
       <h3>We are startup studio that develops and launches new companies.</h3>

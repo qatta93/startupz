@@ -8,6 +8,8 @@
 .home__main--tittle {
   padding-top: 130px;
   max-width: 800px;
+  flex-basis: 60%;
+  z-index: 1;
 }
 
 .home__main--tittle h3 {
@@ -16,8 +18,53 @@
 
 .home__main--bg {
  position: absolute;
- width: 700px;
- height: 500px;
  right: 0;
  bottom: 0;
+}
+
+@media screen and (min-width: 1800px) {
+  .home__main--bg {
+    right: 20vw;
+   }
+}
+
+@media screen and (max-width: 1200px) {
+  .home__main {
+    height: 600px;
+  }
+  .home__main--bg {
+    width: 500px;
+   }
+}
+
+@media screen and (max-width: 900px) {
+  .home__main--tittle {
+    flex-basis: 80%;
+  }
+  .home__main--bg {
+    width: 350px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+  .home__main--tittle {
+    padding-top: 90px;
+    text-align: center;
+  }
+  .home__main {
+    height: 600px;
+    justify-content: center;
+  }
+  .home__main--bg {
+    width: 300px;
+   }
+}
+
+@media screen and (max-width: 500px) {
+  .home__main--tittle {
+    padding-top: 70px;
+  }
+  .home__main {
+    height: 580px;
+  }
 }
