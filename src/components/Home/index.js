@@ -4,6 +4,7 @@ import HomeAbout from './HomeAbout/index.js';
 import HomeAssistant from './HomeAssistant/index.js';
 import HomeValues from './HomeValues/index.js';
 import HomeWorks from './HomeWorks/index.js';
+import HomeHiring from './HomeHiring/index.js';
 import './style.css';
 
 const Home = () => (
@@ -20,6 +21,7 @@ const Home = () => (
         <img src="/images/thumb-right.png" alt="thumb" />
       </div>
     </section>
+    <HomeHiring />
   </main>
 );
 

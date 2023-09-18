@@ -49,3 +49,16 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .home__info p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .home__info {
+    height: 400px;
+  }
+  .home__info img {
+    height: 50px;
+  }
+}
+
