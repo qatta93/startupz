@@ -6,7 +6,7 @@ const HomeAssistant = () => {
 
   return (
     <section className="home__asistant global-padding">
-      <article className="home__asistant--text">
+      <article className={closeChat ? 'home__asistant--text' : 'home__asistant--text home__asistant--text-chat'}>
         <img src="/images/thumb-left.png" alt="thumb" />
         <p>We love solving problems!</p>
         <img src="/images/thumb-right.png" alt="thumb" />

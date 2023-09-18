@@ -1,0 +1,115 @@
+.home__values {
+  padding: 150px 0;
+  background-color: var(--light-grey);
+}
+
+.home__values--header {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.home__values--header img {
+  height: 100%;
+  margin-right: 40px;
+}
+
+.home__values--info {
+  display: flex;
+  justify-content: start;
+  gap: 95px;
+}
+
+.home__values--info div {
+  max-width: 700px;
+}
+
+.home__values--info div p:first-child {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--orange);
+  letter-spacing: -1px;
+  padding-top: 80px;
+}
+
+.home__values--info div p:first-child::after {
+  content: " ";
+  display: block;
+  height: 15px;
+  border-bottom: 1px solid var(--metal);
+  width: 50px;
+}
+
+.home__values--info div p:last-child {
+  font-weight: medium;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: -1px;
+  padding-top: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+  .home__values--header img {
+    margin-right: 0px;
+  }
+  .home__values {
+    padding: 120px 0;
+  }
+  .home__values--info {
+    gap: 55px;
+  }
+  .home__values--info div p:last-child {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home__values {
+    padding: 100px 0;
+  }
+  .home__values--info {
+    gap: 40px;
+    justify-content: space-between;
+  }
+  .home__values--info div p:first-child {
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 50px;
+  }
+  .home__values--info div p:last-child {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home__values {
+    padding: 80px 0;
+  }
+  .home__values--header {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+  .home__values--header img {
+    width: 80px;
+    margin: 0 auto;
+  }
+  .home__values--info {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+  .home__values--info div p:first-child::after {
+    height: 10px;
+    width: 50px;
+    margin: 0 auto;
+  }
+  .home__values--info div p:last-child {
+    padding-top: 15px;
+  }
+}
