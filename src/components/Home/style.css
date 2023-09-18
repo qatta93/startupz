@@ -1,7 +1,51 @@
-.home {
+.home__info {
+  height: 500px;
+  position: relative;
+}
 
+.home__info div {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 
+.home__info p {
+  color: var(--orange);
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: bold;
+  letter-spacing: -1%;
+  padding: 0 35px;
+  text-align: center;
+  max-width: 950px;
+}
 
+@media screen and (max-width: 1200px) {
+  .home__info p {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .home__info p {
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home__info div {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
 

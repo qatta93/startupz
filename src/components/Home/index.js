@@ -13,6 +13,13 @@ const Home = () => (
     <HomeAssistant />
     <HomeValues />
     <HomeWorks />
+    <section className="home__info global-padding">
+      <div>
+        <img src="/images/thumb-left.png" alt="thumb" />
+        <p>Startups create a world that actually is better. Any problem that can be solved, will be solved by a startup, and that is a huge opportunity.</p>
+        <img src="/images/thumb-right.png" alt="thumb" />
+      </div>
+    </section>
   </main>
 );
 
