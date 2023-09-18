@@ -5,6 +5,7 @@ import HomeAssistant from './HomeAssistant/index.js';
 import HomeValues from './HomeValues/index.js';
 import HomeWorks from './HomeWorks/index.js';
 import HomeHiring from './HomeHiring/index.js';
+import HomeContact from './HomeContact/index.js';
 import './style.css';
 
 const Home = () => (
@@ -22,6 +23,7 @@ const Home = () => (
       </div>
     </section>
     <HomeHiring />
+    <HomeContact />
   </main>
 );
 

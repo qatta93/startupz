@@ -16,6 +16,12 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: Roboto;
+  src: url('/public/fonts/Roboto-Regular.ttf');
+  font-weight: medium;
+}
+
 :root {
   --yellow: #FFC351;
   --orange: #FB8958;
