@@ -1,0 +1,23 @@
+.home__main {
+  height: 650px;
+  display: flex;
+  position: relative;
+  padding: 0 120px;
+}
+
+.home__main--tittle {
+  padding-top: 130px;
+  max-width: 800px;
+}
+
+.home__main--tittle h3 {
+  padding: 25px 0;
+}
+
+.home__main--bg {
+ position: absolute;
+ width: 700px;
+ height: 500px;
+ right: 0;
+ bottom: 0;
+}
