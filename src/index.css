@@ -1,13 +1,13 @@
 @font-face {
   font-family: circular-std;
   src: url('/public/fonts/CircularStd-Book.ttf');
-  font-weight: light;
+  font-weight: lighter;
 }
 
 @font-face {
   font-family: circular-std;
   src: url('/public/fonts/CircularStd-Medium.ttf');
-  font-weight: medium;
+  font-weight: normal;
 }
 
 @font-face {
