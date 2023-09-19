@@ -5,7 +5,7 @@ import './style.css';
 const Footer = () => (
   <footer className="footer global-padding">
     <div className='footer__logo'>
-      <img src="/images/logo.png"/>
+      <Link to="/"><img src="/images/logo.png"/></Link>
       <div>
         <p>@2020 Startupz.</p>
         <p>All rights reserved.</p>
