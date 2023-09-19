@@ -13,6 +13,7 @@
   height: 100px;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 .header--fixed {
@@ -69,7 +70,6 @@
   border: none;
   width: 15rem;
   margin: 0.5rem auto;
-  font-weight: medium;
   font-size: 18px;
   text-align: center;
   color: var(--metal);

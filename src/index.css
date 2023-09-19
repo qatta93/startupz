@@ -1,25 +1,25 @@
 @font-face {
   font-family: circular-std;
   src: url('/public/fonts/CircularStd-Book.ttf');
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 @font-face {
   font-family: circular-std;
   src: url('/public/fonts/CircularStd-Medium.ttf');
-  font-weight: normal;
+  font-weight: 500;
 }
 
 @font-face {
   font-family: circular-std;
   src: url('/public/fonts/CircularStd-Bold.ttf');
-  font-weight: bold;
+  font-weight: 700;
 }
 
 @font-face {
   font-family: Roboto;
   src: url('/public/fonts/Roboto-Regular.ttf');
-  font-weight: medium;
+  font-weight: 400;
 }
 
 :root {
@@ -46,27 +46,27 @@
 body {
   color: var(--metal);
   font-family: circular-std, sans-serif;
+  font-weight: 500;
 }
 
 h1 {
   font-weight: bold;
   font-size: 85px;
   line-height: 85px;
-  letter-spacing: -2%;
+  letter-spacing: -0.02em;
 }
 
 h2 {
   font-weight: bold;
   font-size: 50px;
   line-height: 50px;
-  letter-spacing: -2%;
+  letter-spacing: -0.02em;
 }
 
 h3 {
-  font-weight: medium;
   font-size: 24px;
   line-height: 30px;
-  letter-spacing: -1%;
+  letter-spacing: -0.01em;
   color: var(--orange)
 }
 

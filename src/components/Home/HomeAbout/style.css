@@ -33,7 +33,7 @@
   font-size: 30px;
   line-height: 30px;
   color: var(--orange);
-  letter-spacing: -1px;
+  letter-spacing: -0.01em;
   padding-top: 80px;
 }
 
@@ -46,10 +46,9 @@
 }
 
 .home__about--info div p:last-child {
-  font-weight: medium;
   font-size: 30px;
   line-height: 38px;
-  letter-spacing: -1px;
+  letter-spacing: -0.01em;
   padding-top: 25px;
 }
 

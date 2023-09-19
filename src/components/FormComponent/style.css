@@ -38,8 +38,6 @@
   font-size: 18px;
   color: var(--dark-grey);
   font-family: Roboto, sans-serif;
-  font-weight: medium;
-  
 }
 
 .form__message {
@@ -53,7 +51,6 @@
   font-size: 18px;
   color: var(--dark-grey);
   font-family: Roboto, sans-serif;
-  font-weight: medium;
 }
 
 .form input:focus {
