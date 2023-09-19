@@ -1,7 +1,7 @@
 .home__card {
   position: relative;
-  height: 550px;
-  width: 590px;
+  height: 554px;
+  width: 588px;
   display: flex;
   flex-direction: column;
   padding: 45px 90px 50px 90px;
@@ -53,6 +53,22 @@
   bottom: 50px;
   left: 50%;
   transform: translate(-50%, 0);
+}
+
+@media screen and (max-width: 1440px) {
+  .home__card {
+    height: 530px;
+    width: 480px;
+    padding: 50px 30px;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .home__card {
+    height: 554px;
+    width: 588px;
+    padding: 45px 90px 50px 90px;
+  }
 }
 
 @media screen and (max-width: 768px) {
