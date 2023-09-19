@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import Button from '../Button/index'
+import * as emailjs from 'emailjs-com';
 import './style.css';
 
 const FormComponent = () => {
@@ -29,7 +30,18 @@ const FormComponent = () => {
          return errors;
        }}
        
-       onSubmit={(values, { resetForm }) => {
+       onSubmit={(values, { setSubmitting, resetForm }) => {
+        // try{
+        //   emailjs.send(process.env.REACT_APP_FORMIK_SERVICE_ID , process.env.REACT_APP_FORMIK_TEMPLATE_ID, values, process.env.REACT_APP_FORMIK_USER_ID)
+        //     .then(() => {
+        //        setSuccessMessage(true)
+        //        setSubmitting(false);
+        //        resetForm();
+        //           });
+        //    }
+        //    catch {
+        //       setSubmitting(false);
+        //   }
           setSuccessMessage(true)
           resetForm();
          return
