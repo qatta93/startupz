@@ -49,11 +49,11 @@ const FormComponent = () => {
      >
        {({ isSubmitting }) => (
          <Form className='form'>
-           <Field type="text" name="name" placeholder="Name*"/>
+           <Field type="text" name="name" placeholder="Name*" aria-describedby="name-error"/>
            <ErrorMessage name="name" component="span" />
-           <Field type="email" name="email" placeholder="Email*"/>
+           <Field type="email" name="email" placeholder="Email*" aria-describedby="email-error"/>
            <ErrorMessage name="email" component="span" />
-           <Field type="message" name="message" placeholder="Message*" className="form__message"/>
+           <Field type="message" name="message" placeholder="Message*" className="form__message" aria-describedby="message-error"/>
            <ErrorMessage name="message" component="span" />
            <Button
               type={'submit'}
@@ -61,6 +61,7 @@ const FormComponent = () => {
               size={'lg'}
               name={'Shoot us a message'}
               className={successMessage ? 'form__btn form__btn-sent' : 'form__btn'}
+              aria-expanded="false"
               >
               Shoot us a message
             </Button>

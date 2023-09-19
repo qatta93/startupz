@@ -23,17 +23,17 @@ const Header = () => {
     <div className={`placeholder ${isNavExpanded ? 'placeholder--visible' : ''}`} />
     <header className={`header ${isNavExpanded ? 'header--fixed' : ''}`}>
       <nav className="header__nav global-padding">
-        <Link className="header__logo-container" to="/#" onClick={handleLink}>
+        <Link className="header__logo-container" to="#" onClick={handleLink}>
           <img className="header__logo" src="/images/logo.png" alt="startupz logo" />
         </Link>
         <div className="header__menu-container">
-          <button type="button" className="header__button" onClick={toggleNav} aria-label="toggle-nav">
+          <button type="button" className="header__button" onClick={toggleNav} aria-label="toggle-nav" aria-expanded="false">
             { isNavExpanded ? <CloseIcon /> : <HamburgerIcon />}
           </button>
           <ul className={`header__links-container ${isNavExpanded ? 'header__links-container--visible' : ''}`}>
-            <li><NavLink className="header__link" to="/#" onClick={handleLink}>Startups</NavLink></li>
-            <li><NavLink className="header__link" to="/#" onClick={handleLink}>Contact</NavLink></li>
-            <li><NavLink className="header__link" to="/#" onClick={handleLink}>
+            <li><NavLink className="header__link" to="#" onClick={handleLink}>Startups</NavLink></li>
+            <li><NavLink className="header__link" to="#" onClick={handleLink}>Contact</NavLink></li>
+            <li><NavLink className="header__link" to="#" onClick={handleLink}>
               <Button
                 variant={'secondary'}
                 size={'md'}
