@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../../Button/index'
+import BackgroundImage from './BackgroundImage';
 import './style.css';
 
 const HomeMain = () => (
@@ -18,7 +19,7 @@ const HomeMain = () => (
         </Button>        
       </Link>
     </div>
-    <img className="home__main--bg" src="/images/home-bg-main.png" alt="background image" />
+    <BackgroundImage />
   </section>
 );
 

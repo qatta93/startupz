@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Logo from '../Logo/index'
 import './style.css';
 
 const Footer = () => (
   <footer className="footer global-padding">
     <div className='footer__logo'>
-      <Link to="#"><img src="/images/logo.png" alt="startupz logo"/></Link>
+      <Link to="#"><Logo width={179} height={43}/></Link>
       <div>
         <p>@2020 Startupz.</p>
         <p>All rights reserved.</p>

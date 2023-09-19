@@ -3,6 +3,7 @@ import HamburgerIcon from './HamburgerIcon';
 import CloseIcon from './CloseIcon';
 import { Link, NavLink } from 'react-router-dom';
 import Button from '../Button/index'
+import Logo from '../Logo/index'
 import './style.css';
 
 const Header = () => {
@@ -24,7 +25,7 @@ const Header = () => {
     <header className={`header ${isNavExpanded ? 'header--fixed' : ''}`}>
       <nav className="header__nav global-padding">
         <Link className="header__logo-container" to="#" onClick={handleLink}>
-          <img className="header__logo" src="/images/logo.png" alt="startupz logo" />
+          <Logo width={200} height={50}/>
         </Link>
         <div className="header__menu-container">
           <button type="button" className="header__button" onClick={toggleNav} aria-label="toggle-nav" aria-expanded="false">
