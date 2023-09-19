@@ -8,7 +8,7 @@ const HomeHiring = () => (
     <div className='home__hiring--text'>
       <h2>We are hiring!</h2>
       <h3>We're always looking for talented people to join and help build our startups. Check out our current openings</h3>
-      <Link to="/">
+      <Link to="/#">
         <Button
           variant={'primary'}
           size={'lg'}

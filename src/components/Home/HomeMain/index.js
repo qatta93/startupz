@@ -8,7 +8,7 @@ const HomeMain = () => (
     <div className='home__main--tittle'>
       <h1>We Create Startups.</h1>
       <h3>We are startup studio that develops and launches new companies.</h3>
-      <Link className="" to="/">
+      <Link to="/#">
         <Button
           variant={'primary'}
           size={'s'}
