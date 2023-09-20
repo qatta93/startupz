@@ -1,0 +1,28 @@
+.chatbot {
+  position: relative;
+  cursor: pointer;
+}
+
+.chatbot__close {
+  position: absolute;
+  top: -40px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.chatbot__text {
+  opacity: 0;
+  position: absolute;
+  top: -60px;
+  right: 90px;
+  cursor: pointer;
+  animation-name: fade-in;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
