@@ -20,8 +20,6 @@ const HomeHiring = () => (
         </Button>        
       </Link>
     </div>
-    {/* <img className='home__hiring--img-left' src="/images/hiring-bg-left.png" alt="hiring"/>
-    <img className='home__hiring--img-right' src="/images/hiring-bg-right.png" alt="hiring"/> */}
     <PersonImageLeft className='home__hiring--img-left'/>
     <PersonImageRight className='home__hiring--img-right'/>
   </section>

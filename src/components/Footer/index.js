@@ -32,9 +32,6 @@ const Footer = () => (
       <Link to="#"><TwitterIcon /></Link>
       <Link to="#"><LinkedinIcon /></Link>
       <Link to="#"><InstagramIcon /></Link>
-      {/* <Link to="#"><img src="/images/twitter.png" alt="twitter"/></Link>
-      <Link to="#"><img src="/images/linkedin.png" alt="linkedin"/></Link>
-      <Link to="#"><img src="/images/instagram.png" alt="instagram"/></Link> */}
     </div>
   </footer>
 );

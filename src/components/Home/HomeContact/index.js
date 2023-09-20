@@ -9,7 +9,6 @@ const HomeContact = () => (
     <p>Share your excitement with us.</p>
     <div>
       <FormComponent />
-      {/* <img src="/images/rocket.png" alt="rocket"/>  */}
       <RocketImage />
     </div>
   </section>

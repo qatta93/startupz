@@ -23,10 +23,8 @@ const Home = () => (
     <HomeWorks />
     <section className="home__info global-padding">
       <div>
-        {/* <img src="/images/thumb-left.png" alt="thumb" /> */}
         <ThumbIcon transform="scale(-1, 1)"/>
         <p>Startups create a world that actually is better. Any problem that can be solved, will be solved by a startup, and that is a huge opportunity.</p>
-        {/* <img src="/images/thumb-right.png" alt="thumb" /> */}
         <ThumbIcon />
       </div>
     </section>
