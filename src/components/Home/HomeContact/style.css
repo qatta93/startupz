@@ -9,11 +9,12 @@
   align-items: end;
 }
 
-
-.home__contact img {
+.home__contact svg {
   margin-bottom: -70px;
-  max-width: 670px;
-  max-height: 545px;
+  width: 670px;
+  height: 545px;
+  min-width: 670px;
+  min-height: 545px;
 }
 
 .home__contact h2 {
@@ -41,7 +42,7 @@
     flex-direction: column;
     align-items: center;
   }
-  .home__contact img {
+  .home__contact svg {
     display: none;
   }
   .home__contact h2 {

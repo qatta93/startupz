@@ -9,9 +9,10 @@
   gap: 50px;
 }
 
-.home__about--header img {
-  height: 100%;
+.home__about--header svg {
   margin-right: 40px;
+  min-width: 75px;
+  min-height: 88px;
 }
 
 .home__about h2 {
@@ -53,7 +54,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .home__about--header img {
+  .home__about--header svg {
     margin-right: 0px;
   }
   .home__about {
@@ -96,7 +97,7 @@
     text-align: center;
     gap: 30px;
   }
-  .home__about--header img {
+  .home__about--header svg {
     width: 80px;
     margin: 0 auto;
   }

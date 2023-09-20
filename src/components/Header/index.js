@@ -3,7 +3,7 @@ import HamburgerIcon from './HamburgerIcon';
 import CloseIcon from './CloseIcon';
 import { Link, NavLink } from 'react-router-dom';
 import Button from '../Button/index'
-import Logo from '../Logo/index'
+import Logo from '../Icons/Logo';
 import './style.css';
 
 const Header = () => {

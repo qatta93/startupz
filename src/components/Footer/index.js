@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../Logo/index'
+import Logo from '../Icons/Logo'
 import './style.css';
+import TwitterIcon from '../Icons/SocialMedia/Twitter';
+import LinkedinIcon from '../Icons/SocialMedia/Linkedin';
+import InstagramIcon from '../Icons/SocialMedia/Instagram';
 
 const Footer = () => (
   <footer className="footer global-padding">
@@ -26,9 +29,12 @@ const Footer = () => (
     </div>
     <div className='footer__follow'>
       <p>Follow us</p>
-      <Link to="#"><img src="/images/twitter.png" alt="twitter"/></Link>
+      <Link to="#"><TwitterIcon /></Link>
+      <Link to="#"><LinkedinIcon /></Link>
+      <Link to="#"><InstagramIcon /></Link>
+      {/* <Link to="#"><img src="/images/twitter.png" alt="twitter"/></Link>
       <Link to="#"><img src="/images/linkedin.png" alt="linkedin"/></Link>
-      <Link to="#"><img src="/images/instagram.png" alt="instagram"/></Link>
+      <Link to="#"><img src="/images/instagram.png" alt="instagram"/></Link> */}
     </div>
   </footer>
 );

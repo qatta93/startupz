@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import FormComponent from '../../FormComponent/index';
+import RocketImage from './RocketImage';
 
 const HomeContact = () => (
   <section className="home__contact global-padding">
@@ -8,7 +9,8 @@ const HomeContact = () => (
     <p>Share your excitement with us.</p>
     <div>
       <FormComponent />
-      <img src="/images/rocket.png" alt="rocket"/> 
+      {/* <img src="/images/rocket.png" alt="rocket"/>  */}
+      <RocketImage />
     </div>
   </section>
 );

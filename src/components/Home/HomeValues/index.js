@@ -1,4 +1,5 @@
 import React from 'react';
+import BulbIcon from './BulbIcon';
 import './style.css';
 
 const HomeValues = () => (
@@ -7,7 +8,8 @@ const HomeValues = () => (
       <article>
         <h2>Our core values</h2>
       </article>
-      <img src="/images/idea.png" alt="idea" />
+      {/* <img src="/images/idea.png" alt="idea" /> */}
+      <BulbIcon />
     </div>
     <div className='home__values--info'>
       <div>

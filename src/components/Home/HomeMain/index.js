@@ -19,7 +19,7 @@ const HomeMain = () => (
         </Button>        
       </Link>
     </div>
-    <BackgroundImage />
+    <BackgroundImage className="home__main--bg"/>
   </section>
 );
 

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../../Button/index'
+import PersonImageRight from './PersonImageRight';
+import PersonImageLeft from './PersonImageLeft';
 import './style.css';
 
 const HomeHiring = () => (
@@ -18,8 +20,10 @@ const HomeHiring = () => (
         </Button>        
       </Link>
     </div>
-    <img className='home__hiring--img-left' src="/images/hiring-bg-left.png" alt="hiring"/>
-    <img className='home__hiring--img-right' src="/images/hiring-bg-right.png" alt="hiring"/>
+    {/* <img className='home__hiring--img-left' src="/images/hiring-bg-left.png" alt="hiring"/>
+    <img className='home__hiring--img-right' src="/images/hiring-bg-right.png" alt="hiring"/> */}
+    <PersonImageLeft className='home__hiring--img-left'/>
+    <PersonImageRight className='home__hiring--img-right'/>
   </section>
 );
 

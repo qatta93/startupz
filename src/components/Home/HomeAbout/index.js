@@ -1,4 +1,5 @@
 import React from 'react';
+import QuestionIcon from './QuestionIcon';
 import './style.css';
 
 const HomeAbout = () => (
@@ -9,7 +10,7 @@ const HomeAbout = () => (
         <h3>We create products that have innovation and technology at their core.</h3>
         <h3>We value working with talented people that understand the possibilities of today.</h3>
       </article>
-      <img src="/images/question-mark.png" alt="question mark" />
+      <QuestionIcon />
     </div>
     <div className='home__about--info'>
       <div>
