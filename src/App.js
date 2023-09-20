@@ -5,12 +5,13 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import SEO from './components/Seo';
-import ChatBot from './components/ChatBot';
+import ChatBotComponent from './components/ChatBot/ChatBotPopup';
 import { useState, useEffect } from 'react';
-
+import ChatBotWindow from './components/ChatBot/ChatBotWindow';
 
 function App() {
-  const [showChatBot, setShowChatBot] = useState(false);
+  const [showChatBotIcon, setShowChatBotIcon] = useState(false);
+  const [showChatBotWindow, setShowChatBotWindow] = useState(false);
 
   useEffect(() => {
     let scrollPos = 700;
@@ -18,7 +19,7 @@ function App() {
     function checkPosition() {
       let windowY = window.scrollY;
       if (runCounts === 0 ) {
-        setShowChatBot(true)
+        setShowChatBotIcon(true)
         runCounts++
       } 
       scrollPos = windowY;
@@ -39,7 +40,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-        {showChatBot && <ChatBot className="chat-bot" setShowChatBot={setShowChatBot}/>}
+        {showChatBotIcon && <ChatBotComponent className="chat-bot" setShowChatBotIcon={setShowChatBotIcon} setShowChatBotWindow={setShowChatBotWindow}/>}
+        {showChatBotWindow && <ChatBotWindow className="chat-bot-window" setShowChatBotWindow={setShowChatBotWindow}/> }
         <Footer />
       </HelmetProvider>
     </div>

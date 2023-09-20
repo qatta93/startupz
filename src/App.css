@@ -11,6 +11,13 @@
   animation: fadeInRight .5s ease-in-out;
 }
 
+.chat-bot-window {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  animation: fadeInRight .5s ease-in-out;
+}
+
 @-webkit-keyframes fadeInRight {
   0% {
      opacity: 0;
