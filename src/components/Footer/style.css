@@ -29,7 +29,7 @@
 .footer a {
   text-decoration: none;
   color: var(--sky-blue);
-  padding: 5px 0;
+  padding: 6px 0;
 }
 
 .footer__logo {
@@ -40,11 +40,13 @@
   color: var(--dark-grey)!important;
   font-size: 18px;
   padding-bottom: 5px!important;
+  font-weight: normal;
 }
 
-.footer__logo img {
+.footer__logo svg {
   height: 43px;
   width: 180px;
+  margin-top: -17px;
 }
 
 .footer__follow a {
@@ -78,10 +80,8 @@
     margin-bottom: 30px;
     text-align: center;
   }
-  .footer__logo img {
+  .footer__logo svg {
     margin-bottom: 20px;
-  }
-  .footer__logo img {
     height: auto;
     width: 250px;
   }
@@ -90,7 +90,7 @@
     font-size: 20px;
     padding-bottom: 10px;
   }
-  .footer__follow img{
+  .footer__follow svg {
     height: 35px;
     width: 35px;
     margin-bottom: 10px;

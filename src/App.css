@@ -39,3 +39,10 @@
      transform: translateX(0);
   }
 } 
+
+
+@media screen and (max-width: 500px) {
+  .chat-bot {
+    right: 5px;
+  }
+}
