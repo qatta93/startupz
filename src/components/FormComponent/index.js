@@ -7,6 +7,7 @@ import './style.css';
 const FormComponent = () => {
 
   const [successMessage, setSuccessMessage] = useState(false)
+  const [errorMessage, setErrorMessage] = useState(false)
 
   return (
   <>
@@ -30,17 +31,16 @@ const FormComponent = () => {
          return errors;
        }}
        
-       onSubmit={(values, { setSubmitting, resetForm }) => {
+       onSubmit={(values, { resetForm }) => {
         // try{
         //   emailjs.send(process.env.REACT_APP_FORMIK_SERVICE_ID , process.env.REACT_APP_FORMIK_TEMPLATE_ID, values, process.env.REACT_APP_FORMIK_USER_ID)
         //     .then(() => {
         //        setSuccessMessage(true)
-        //        setSubmitting(false);
         //        resetForm();
         //      });
         //    }
         //    catch {
-        //       setSubmitting(false);
+        //       setErrorMessage(true)
         //   }
           setSuccessMessage(true)
           resetForm();
@@ -66,6 +66,7 @@ const FormComponent = () => {
               Shoot us a message
             </Button>
             {successMessage && <p className='form__success'>Thank you for your message! <br />Let's stay in touch.</p>}
+            {errorMessage && <p className='form__error'>Opps! Your message hasn't been sent.<br />Please try later</p>}
          </Form>
        )}
      </Formik>

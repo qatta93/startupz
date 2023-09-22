@@ -65,6 +65,13 @@
   padding-bottom: 0!important;
 }
 
+.form__error {
+  color: red!important;
+  text-align: center;
+  line-height: 30px!important;
+  padding-bottom: 0!important;
+}
+
 .form span {
   margin-top: -10px;
   margin-bottom: 5px;

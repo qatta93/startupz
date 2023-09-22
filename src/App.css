@@ -17,6 +17,7 @@
   bottom: 20px;
   right: 20px;
   animation: fadeInRight .5s ease-in-out;
+  z-index: 999999;
 }
 
 @-webkit-keyframes fadeInRight {
