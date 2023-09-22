@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const PersonImageRight = (props) => (
+const PersonImageRight = ({transform}) => (
   <svg
     width={291}
     height={319}
@@ -9,9 +9,9 @@ const PersonImageRight = (props) => (
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
     alt="person"
-    {...props}
+    className="person-svg home__hiring--img-right"
   >
-    <g clipPath="url(#clip0_1_68)">
+    <g clipPath="url(#clip0_1_68)" transform={`translate(${transform},0)`}>
       <rect x={-771} y={-208} width={1062} height={764} fill="url(#person-image-right)" />
     </g>
     <defs>
