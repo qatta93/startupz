@@ -37,7 +37,7 @@ const FormComponent = () => {
         //        setSuccessMessage(true)
         //        setSubmitting(false);
         //        resetForm();
-        //           });
+        //      });
         //    }
         //    catch {
         //       setSubmitting(false);
@@ -47,7 +47,7 @@ const FormComponent = () => {
          return
        }}
      >
-       {({ isSubmitting }) => (
+       {() => (
          <Form className='form'>
            <Field type="text" name="name" placeholder="Name*" aria-describedby="name-error"/>
            <ErrorMessage name="name" component="span" />

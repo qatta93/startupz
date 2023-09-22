@@ -15,9 +15,8 @@ const HomeHiring = () => {
       return 180
     } else if(size[0] < 1100) {
       return 90
-    } else {
-      return 0
-    }
+    } 
+    return 0
   }
 
   const [svgPosition, setSvgPosition] = useState(initialSvgPosition())
@@ -58,8 +57,8 @@ const HomeHiring = () => {
         </Button>        
       </Link>
     </div>
-    <PersonImageLeft className='home__hiring--img-left'  transform={`-${svgPosition}`}/>
-    <PersonImageRight className='home__hiring--img-right' transform={svgPosition}/>
+    <PersonImageLeft transform={`-${svgPosition}`}/>
+    <PersonImageRight transform={svgPosition}/>
   </section>
 )};
 

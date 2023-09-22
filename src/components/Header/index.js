@@ -9,7 +9,6 @@ import './style.css';
 const Header = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
-
   const toggleNav = () => {
     window.scrollTo(0, 0);
     setIsNavExpanded((currentState) => !currentState);

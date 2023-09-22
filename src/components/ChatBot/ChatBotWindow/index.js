@@ -3,12 +3,12 @@ import ChatCloseIcon from '../Icons/ChatCloseIcon';
 
 const steps = [
   {
-      id: '0',
-      message: 'Hey there! What is your name?',
-      trigger: '1',
+    id: '0',
+    message: 'Hey there! What is your name?',
+    trigger: '1',
   },  {
-      id: '1',
-      user: true,
+    id: '1',
+    user: true,
   }
 ];
 
