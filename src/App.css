@@ -20,6 +20,14 @@
   z-index: 999999;
 }
 
+@media screen and (min-width: 2050px) {
+  .chat-bot,
+  .chat-bot-window {
+    bottom: 70px;
+    right: 20vw;
+  }
+}
+
 @-webkit-keyframes fadeInRight {
   0% {
      opacity: 0;
